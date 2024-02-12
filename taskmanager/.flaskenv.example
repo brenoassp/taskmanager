@@ -1,0 +1,8 @@
+FLASK_APP=app
+FLASK_DEBUG=1
+
+DATABASE_URL=postgresql://postgres:postgres@localhost:5777/taskmanager?sslmode=disable
+
+JWT_SECRET_KEY=test
+JWT_ACCESS_TOKEN_EXPIRES=3600
+
